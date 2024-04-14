@@ -1,0 +1,114 @@
+body {
+    background-color: paige;
+  }
+
+
+  h2{
+    padding-left: 600px;
+    padding-right: 600px;
+  }
+  
+  .heading {
+    background-color: beige;
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 15px;
+  }
+  
+  .title {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+  }
+.navbar navbar-expand-lg bg-body-tertiary {
+  justify-content: space-between;
+}
+
+  
+.sliderwrapper {
+  display: flex;
+  width: 500vw;
+
+
+}
+.sliderItem{
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buyButton {
+  position: absolute;
+  top:auto;
+left: 10px;
+font-size: 20px;
+text-align: 300;
+color: black;
+
+}
+
+  #runtime {
+    background-color: #333333;
+    color: #3e8fde;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  .content {
+    color: #3e8fde;
+  }
+  
+  #subtitle {
+    color: white;
+    margin-left: 55px;
+  }
+  
+  #showing {
+    margin-left: 20px;
+  }
+  
+  #films li::before {
+    content: "";
+  }
+  
+  .film {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .sold-out {
+    color: lightgray;
+  }
+  
+  img {
+    max-width: 25vw;
+  }
+  
+  #film-info {
+    padding-bottom: 15px;
+  }
+  #search-container {
+    margin-bottom: 20px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 16px;
+}
+#search-results-container {
+  margin-top: 20px;
+}
+
+.search-result {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
