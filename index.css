@@ -1,5 +1,5 @@
 body {
-    background-color: paige;
+    background-color: yellowgreen;
   }
 
 
@@ -16,11 +16,20 @@ body {
   
   .title {
     background-color: blue;
-    padding: 5px;
+    padding: 20px;
     color: white;
   }
-.navbar navbar-expand-lg bg-body-tertiary {
+.navbar 
+{
+    background-color: blue;
+    padding:20px 50px;
+    color: white;
+}
+.navTop{
+  display :flex;
+  align-items: center;
   justify-content: space-between;
+
 }
 
   
@@ -52,35 +61,7 @@ color: black;
     padding: 0px 0px 5px 5px;
   }
   
-  .content {
-    color: #3e8fde;
-  }
-  
-  #subtitle {
-    color: white;
-    margin-left: 55px;
-  }
-  
-  #showing {
-    margin-left: 20px;
-  }
-  
-  #films li::before {
-    content: "";
-  }
-  
-  .film {
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  
-  .sold-out {
-    color: lightgray;
-  }
-  
-  img {
-    max-width: 25vw;
-  }
+ 
   
   #film-info {
     padding-bottom: 15px;
