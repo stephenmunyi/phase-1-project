@@ -23,9 +23,6 @@
 
 
 
-
-
-
     
     function performSearch(query) {
         const searchResultsContainer = document.getElementById('search-results-container');
@@ -64,7 +61,7 @@ document.getElementById('search-button').addEventListener('click', function() {
 });
 
 function performSearch(query) {
-    // Simulated search results (replace with actual search logic)
+    // Simulated search results 
     const searchResults = [
        { id: 1, name: "Jdian SolarLight", description: "brightness" },
         { id: 2, name: "Jdian Solar" },
@@ -115,22 +112,6 @@ function displaySearchResults(results) {
 }
 
 
-
-
-//         // Create a paragraph for each property of the result object
-//         for (const key in result) {
-//             if (result.hasOwnProperty(key)) {
-//                 const value = result[key];
-//                 const propertyParagraph = document.createElement('p');
-//                 propertyParagraph.textContent = `${key}: ${value}`;
-//                 resultElement.appendChild(propertyParagraph);
-//             }
-//         }
-
-//         // Append the result element to the search results container
-//         searchResultsContainer.appendChild(resultElement);
-//     });
-// }
 
 function displaySearchResults(results) {
     const searchResultsContainer = document.getElementById('search-results-container');
