@@ -149,7 +149,7 @@ document.getElementById('pay-button').addEventListener('click', function() {
 
 function makePayment(amount) {
     // Simulate payment processing 
-    const paymentSuccessful = Math.random() < 0.8; // 80% chance of success
+    const paymentSuccessful = Math.random() < 0.8;
 
     if (paymentSuccessful) {
         displayPaymentStatus('Payment successful. Amount paid: $' + amount);
