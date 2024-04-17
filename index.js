@@ -86,9 +86,9 @@ function displaySearchResults(results) {
     const searchResultsContainer = document.getElementById('search-results-container');
     searchResultsContainer.innerHTML = ''; // Clear previous search results
 
-    const searchQueryElement = document.createElement('div');
-    searchQueryElement.textContent = `Search results for: ${document.getElementById('search-input').value}`;
-    searchResultsContainer.appendChild(searchQueryElement);
+    // const searchQueryElement = document.createElement('div');
+    // searchQueryElement.textContent = `Search results for: ${document.getElementById('search-input').value}`;
+    // searchResultsContainer.appendChild(searchQueryElement);
 
     // Loop through each search result object
     results.forEach(result => {
