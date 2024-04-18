@@ -26,7 +26,7 @@ Git clone
 ```
 
 # Live Link
-[Git](gh-pages link)
+ https://stephenmunyi.github.io/phase-1-project/
 
 ## Technologies used
 HTML
